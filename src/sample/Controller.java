@@ -64,12 +64,12 @@ public class Controller {
 
         // Создание препятствий
 
-        Wall[] walls = new Wall[2000];
+        Wall[] walls = new Wall[1500];
         ArrayList<WallContainer> wallContainerList = new ArrayList<WallContainer>();
 
 
         gc.setFill(Color.rgb(0,0,0));
-        for (int i = 0; i < 2000; i++)
+        for (int i = 0; i < 1500; i++)
         {
             walls[i] = new Wall();
             walls[i].randomizeWallCoordinates();
